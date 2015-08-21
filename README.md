@@ -15,7 +15,7 @@ It uses a finder extension to do this - which is thoroughly painful.
 
 It now offers an interface so that you can add a right click action directly to your app, without the pain of building a full finder extension, and without needing to deliver your app through the app store.
 
-**Installation**
+## Installation
 
 Install with cocoapods
 
@@ -52,7 +52,7 @@ To get the callback, you need to add the following in your App Delegate:
         return self;
     }
 
-now you can handle the callback
+Now you can handle the callback. [RCBRightClick pathsFromURL:url] provides an array of the selected paths.
 
     - (void)handleURLEvent:(NSAppleEventDescriptor*)event withReplyEvent:(NSAppleEventDescriptor*)replyEvent
     {
@@ -76,7 +76,7 @@ finally, you need to add your scheme as a URL Type in the info tab of your proje
 
 ![Image of URL scheme](https://raw.githubusercontent.com/ConfusedVorlon/RCBRightClick/master/images/scheme.png)
 
-**Advanced**
+## Advanced
 
 
 You can register more info for your extension...
@@ -93,6 +93,10 @@ filetypes is a comma delimited list of types that should trigger your extension.
 image allows you to set an image that will appear in the right click options by your action
 
 callback scheme allows you to register a callback so that RCB will return information about whether the extension was succesfully installed. It follows the [x-callback-url specification][1]. See the demo project for info on how to handle the callback.
+
+## Example
+
+The example project shows how various extensions are installed and handled, including the installation callback, and how to get the paths from the callback response.
 
 
   [1]: http://x-callback-url.com/
