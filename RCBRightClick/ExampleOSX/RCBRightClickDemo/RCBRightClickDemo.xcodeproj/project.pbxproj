@@ -278,6 +278,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RCBRightClickDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HobbyistSoftware.RCBRightClickDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -291,6 +292,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RCBRightClickDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HobbyistSoftware.RCBRightClickDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -315,6 +317,7 @@
 				D4240AB11B85E77C00B2AA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

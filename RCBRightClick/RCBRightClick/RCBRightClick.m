@@ -57,7 +57,7 @@
     
 }
 
-+(BOOL)registerExtensionWithName:(NSString*)name scheme:(NSString*)scheme filetypes:(NSArray*)fileExtensions image:(NSImage*)image callbackScheme:(NSString* _Nullable)callbackScheme
++(BOOL)registerExtensionWithName:(NSString*)name scheme:(NSString*)scheme filetypes:(NSArray*)fileExtensions image:(NSImage*)image callbackScheme:(NSString* )callbackScheme
 {
     if (![self systemCanHandleRCB])
     {
@@ -139,7 +139,7 @@
     return newString;
 }
 
-+(NSArray*)pathsFromURL:(NSURL* _Nonnull)url
++(NSArray*)pathsFromURL:(NSURL*)url
 {
     NSArray *parts=[[url query] componentsSeparatedByString:@"&"];
  
@@ -164,7 +164,7 @@
     return nil;
 }
 
-+(NSDictionary*)errorInfoFromURL:(NSURL* _Nonnull)url
++(NSDictionary*)errorInfoFromURL:(NSURL*)url
 {
     NSMutableDictionary *info=[NSMutableDictionary dictionary];
     NSArray *parts=[[url query] componentsSeparatedByString:@"&"];
