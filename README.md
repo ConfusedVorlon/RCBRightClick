@@ -1,5 +1,10 @@
 # RCBRightClick
-A simple interface to add right-click extensions to your app via Right Click Booster.
+
+Simple finder integration for Mac OS.
+Mavericks brought the finder extension, so developers can finally integrate right-click actions into the finder.
+It did not bring easy integration though - finder extensions are thoroughly painful to build.
+
+RCBRightClick provides easy finder integration. You simply register the name of your action, the scheme which should be called with details of the selected files and (optionally) the filetypes you are interested in.
 
 == Preliminary - This is not live yet.
 
