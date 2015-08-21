@@ -9,7 +9,7 @@ RCBRightClick provides easy finder integration. You simply register the name of 
 == Preliminary - This is not live yet.
 
 
-Right Click Booster is a free app on the Mac App Store that allows users to run scripts by right clicking on files in the finder.
+[Right Click Booster][2] is a free app on the Mac App Store that allows users to run scripts by right clicking on files in the finder.
 
 It uses a finder extension to do this - which is thoroughly painful.
 
@@ -96,3 +96,4 @@ callback scheme allows you to register a callback so that RCB will return inform
 
 
   [1]: http://x-callback-url.com/
+  [2]: https://itunes.apple.com/us/app/right-click-booster/id970432740?mt=12&ign-mpt=uo%3D4
