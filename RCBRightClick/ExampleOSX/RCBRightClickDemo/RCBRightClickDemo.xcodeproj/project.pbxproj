@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4240AA31B85E77C00B2AA99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4240AA21B85E77C00B2AA99 /* AppDelegate.m */; };
+		D4240AA61B85E77C00B2AA99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4240AA51B85E77C00B2AA99 /* main.m */; };
+		D4240AA81B85E77C00B2AA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4240AA71B85E77C00B2AA99 /* Assets.xcassets */; };
+		D4240AAB1B85E77C00B2AA99 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4240AA91B85E77C00B2AA99 /* MainMenu.xib */; };
+		D4240AB41B85E7AA00B2AA99 /* UIController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4240AB31B85E7AA00B2AA99 /* UIController.m */; };
+		D4240AB81B85EFF300B2AA99 /* RCBRightClick.m in Sources */ = {isa = PBXBuildFile; fileRef = D4240AB71B85EFF300B2AA99 /* RCBRightClick.m */; };
+		D4240ABE1B85FB9500B2AA99 /* 113-navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = D4240ABD1B85FB9500B2AA99 /* 113-navigation.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4240A9E1B85E77C00B2AA99 /* RCBRightClickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCBRightClickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4240AA11B85E77C00B2AA99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4240AA21B85E77C00B2AA99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4240AA51B85E77C00B2AA99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4240AA71B85E77C00B2AA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4240AAA1B85E77C00B2AA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D4240AAC1B85E77C00B2AA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4240AB21B85E7AA00B2AA99 /* UIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIController.h; sourceTree = "<group>"; };
+		D4240AB31B85E7AA00B2AA99 /* UIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIController.m; sourceTree = "<group>"; };
+		D4240AB61B85EFF300B2AA99 /* RCBRightClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCBRightClick.h; sourceTree = "<group>"; };
+		D4240AB71B85EFF300B2AA99 /* RCBRightClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCBRightClick.m; sourceTree = "<group>"; };
+		D4240ABD1B85FB9500B2AA99 /* 113-navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "113-navigation.png"; sourceTree = "<group>"; };
+		D4240AC11B8643C500B2AA99 /* RCBRightClickDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RCBRightClickDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4240A9B1B85E77C00B2AA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4240A951B85E77C00B2AA99 = {
+			isa = PBXGroup;
+			children = (
+				D4240AB51B85EFD700B2AA99 /* RCBRightClick */,
+				D4240AA01B85E77C00B2AA99 /* RCBRightClickDemo */,
+				D4240A9F1B85E77C00B2AA99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4240A9F1B85E77C00B2AA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4240A9E1B85E77C00B2AA99 /* RCBRightClickDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4240AA01B85E77C00B2AA99 /* RCBRightClickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4240AC11B8643C500B2AA99 /* RCBRightClickDemo.entitlements */,
+				D4240AA11B85E77C00B2AA99 /* AppDelegate.h */,
+				D4240AA21B85E77C00B2AA99 /* AppDelegate.m */,
+				D4240AA71B85E77C00B2AA99 /* Assets.xcassets */,
+				D4240AA91B85E77C00B2AA99 /* MainMenu.xib */,
+				D4240AAC1B85E77C00B2AA99 /* Info.plist */,
+				D4240AA41B85E77C00B2AA99 /* Supporting Files */,
+				D4240AB21B85E7AA00B2AA99 /* UIController.h */,
+				D4240AB31B85E7AA00B2AA99 /* UIController.m */,
+			);
+			path = RCBRightClickDemo;
+			sourceTree = "<group>";
+		};
+		D4240AA41B85E77C00B2AA99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4240ABD1B85FB9500B2AA99 /* 113-navigation.png */,
+				D4240AA51B85E77C00B2AA99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4240AB51B85EFD700B2AA99 /* RCBRightClick */ = {
+			isa = PBXGroup;
+			children = (
+				D4240AB61B85EFF300B2AA99 /* RCBRightClick.h */,
+				D4240AB71B85EFF300B2AA99 /* RCBRightClick.m */,
+			);
+			name = RCBRightClick;
+			path = ../../RCBRightClick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4240A9D1B85E77C00B2AA99 /* RCBRightClickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4240AAF1B85E77C00B2AA99 /* Build configuration list for PBXNativeTarget "RCBRightClickDemo" */;
+			buildPhases = (
+				D4240A9A1B85E77C00B2AA99 /* Sources */,
+				D4240A9B1B85E77C00B2AA99 /* Frameworks */,
+				D4240A9C1B85E77C00B2AA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCBRightClickDemo;
+			productName = RCBRightClickDemo;
+			productReference = D4240A9E1B85E77C00B2AA99 /* RCBRightClickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4240A961B85E77C00B2AA99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HobbyistSoftware;
+				TargetAttributes = {
+					D4240A9D1B85E77C00B2AA99 = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D4240A991B85E77C00B2AA99 /* Build configuration list for PBXProject "RCBRightClickDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4240A951B85E77C00B2AA99;
+			productRefGroup = D4240A9F1B85E77C00B2AA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4240A9D1B85E77C00B2AA99 /* RCBRightClickDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4240A9C1B85E77C00B2AA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4240AA81B85E77C00B2AA99 /* Assets.xcassets in Resources */,
+				D4240ABE1B85FB9500B2AA99 /* 113-navigation.png in Resources */,
+				D4240AAB1B85E77C00B2AA99 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4240A9A1B85E77C00B2AA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4240AB41B85E7AA00B2AA99 /* UIController.m in Sources */,
+				D4240AB81B85EFF300B2AA99 /* RCBRightClick.m in Sources */,
+				D4240AA61B85E77C00B2AA99 /* main.m in Sources */,
+				D4240AA31B85E77C00B2AA99 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4240AA91B85E77C00B2AA99 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4240AAA1B85E77C00B2AA99 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4240AAD1B85E77C00B2AA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4240AAE1B85E77C00B2AA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4240AB01B85E77C00B2AA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RCBRightClickDemo/RCBRightClickDemo.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RCBRightClickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HobbyistSoftware.RCBRightClickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4240AB11B85E77C00B2AA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RCBRightClickDemo/RCBRightClickDemo.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RCBRightClickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HobbyistSoftware.RCBRightClickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4240A991B85E77C00B2AA99 /* Build configuration list for PBXProject "RCBRightClickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4240AAD1B85E77C00B2AA99 /* Debug */,
+				D4240AAE1B85E77C00B2AA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4240AAF1B85E77C00B2AA99 /* Build configuration list for PBXNativeTarget "RCBRightClickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4240AB01B85E77C00B2AA99 /* Debug */,
+				D4240AB11B85E77C00B2AA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4240A961B85E77C00B2AA99 /* Project object */;
+}
