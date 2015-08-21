@@ -14,7 +14,7 @@
 
 - (IBAction)installSimpleExtension:(id)sender {
     
-    [RCBRightClick registerExtensionWithName:@"Do something in my app"
+    [RCBRightClick registerExtensionWithName:@"RCB Simple Test"
                                       scheme:@"rcbtest1"];
 }
 
@@ -24,7 +24,7 @@
                                       scheme:@"rcbtest2"
                                    filetypes:@[@"png",@"jpg",@"jpeg"]
                                        image:[NSImage imageNamed:@"113-navigation.png"]
-                              callbackScheme:@"rcbdemocallback"
+                              callbackScheme:nil
      ];
 }
 - (IBAction)installWithCallback:(id)sender
