@@ -1,7 +1,7 @@
 # RCBRightClick
 A simple interface to add right-click extensions to your app via Right Click Booster.
 
-== Preliminary; This is not live yet.
+== Preliminary - This is not live yet.
 
 
 Right Click Booster is a free app on the Mac App Store that allows users to run scripts by right clicking on files in the finder.
