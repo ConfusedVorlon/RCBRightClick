@@ -27,6 +27,8 @@ Once Right Click Booster is installed, they will be asked to confirm that they w
 
 When the user clicks on a link, your app is called via the scheme you registered.
 
+![Image of simple item](https://raw.githubusercontent.com/ConfusedVorlon/RCBRightClick/master/images/simpleItem.png)
+
 To get the callback, you need to add the following in your App Delegate:
 
 1) In the init method, register your url handler
@@ -66,6 +68,8 @@ now you can handle the callback
     }
 
 finally, you need to add your scheme as a URL Type in the info tab of your project.
+
+![Image of URL scheme](https://raw.githubusercontent.com/ConfusedVorlon/RCBRightClick/master/images/scheme.png)
 
 **Advanced**
 
