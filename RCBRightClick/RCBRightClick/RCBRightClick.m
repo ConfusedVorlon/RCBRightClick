@@ -8,9 +8,11 @@
 
 #import "RCBRightClick.h"
 
+#define RCB_Identifier @"com.HobbyistSoftware.RightClick"
+
+
 
 @implementation RCBRightClick
-
 
 +(BOOL)systemCanHandleRCB
 {
@@ -29,7 +31,7 @@
 
 +(BOOL)RCBInstalled
 {
-    NSString *rcbPath=[[NSWorkspace sharedWorkspace] absolutePathForAppBundleWithIdentifier:@"com.HobbyistSoftware.RightClick"];
+    NSString *rcbPath=[[NSWorkspace sharedWorkspace] absolutePathForAppBundleWithIdentifier:RCB_Identifier];
     if (rcbPath)
     {
         return YES;
@@ -108,6 +110,12 @@
         urlString=[urlString stringByAppendingFormat:@"?x-error=%@",[self escapedString:xError]];
     }
     
+    //Open URL doesn't seem to open the app - so we do it manually.
+    [[NSWorkspace sharedWorkspace]
+     launchAppWithBundleIdentifier:RCB_Identifier
+     options:NSWorkspaceLaunchWithoutActivation
+     additionalEventParamDescriptor:nil
+     launchIdentifier:NULL];
     
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:urlString]];
     
