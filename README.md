@@ -6,9 +6,6 @@ It did not bring easy integration though - finder extensions are thoroughly pain
 
 RCBRightClick provides easy finder integration. You simply register the name of your action, the scheme which should be called with details of the selected files and (optionally) the filetypes you are interested in.
 
-== Preliminary - This is not live yet.
-
-
 [Right Click Booster][2] is a free app on the Mac App Store that allows users to run scripts by right clicking on files in the finder.
 
 It uses a finder extension to do this - which is thoroughly painful.
