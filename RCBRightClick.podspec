@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :osx, "10.7"
 
-  s.source       = { :git => "https://github.com/ConfusedVorlon/RCBRightClick.git" } #, :tag => "0.1.2"
+  s.source       = { :git => "https://github.com/ConfusedVorlon/RCBRightClick.git", :tag => "0.1.2" } 
   s.source_files  = "RCBRightClick/RCBRightClick"
  
   s.requires_arc = true
