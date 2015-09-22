@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RCBRightClick"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "Easy finder integration with Right Click Booster"
 
   s.homepage     = "https://github.com/ConfusedVorlon/RCBRightClick"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :osx, "10.7"
 
-  s.source       = { :git => "https://github.com/ConfusedVorlon/RCBRightClick.git", :tag => "0.1.2" } 
+  s.source       = { :git => "https://github.com/ConfusedVorlon/RCBRightClick.git", :tag => "0.1.3" } 
   s.source_files  = "RCBRightClick/RCBRightClick"
  
   s.requires_arc = true
