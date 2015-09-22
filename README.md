@@ -95,6 +95,11 @@ callback scheme allows you to register a callback so that RCB will return inform
 
 The example project shows how various extensions are installed and handled, including the installation callback, and how to get the paths from the callback response.
 
+## Let me know
+
+If you use RCB - please let me know so I can keep a list of apps compatible with RCB. (Or simply add your app to [the wiki page](https://github.com/ConfusedVorlon/RCBRightClick/wiki/Apps-Using-Right-Click-Booster)).
+
+
 
   [1]: http://x-callback-url.com/
   [2]: https://itunes.apple.com/us/app/right-click-booster/id970432740?mt=12&ign-mpt=uo%3D4
